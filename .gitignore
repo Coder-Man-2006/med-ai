@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+*.egg-info/
+dist/
+build/
+
+# Ignore Docker-related files (if needed)
+*.env
+*.dockerignore
