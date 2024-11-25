@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  pipeline:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.pipeline
+    volumes:
+      - ./data:/app/data
+    command: python pipeline/preprocess.py
+
+  training:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.models
+    runtime: nvidia
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: python models/train_unet.py
