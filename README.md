@@ -1,6 +1,6 @@
 # Med-AI: Medical Imaging AI Research and Implementation
 
-![Med-AI Banner](https://imgur.com/2sNQKP5)
+![Med-AI Banner](https://i.imgur.com/2sNQKP5.jpg)
 
 Med-AI is a comprehensive research and development project aimed at addressing the gap between cutting-edge AI-driven data annotation platforms and their real-world implementation in medical imaging workflows. By focusing on both model performance and clinical integration, this project seeks to identify and develop solutions that are fast, accurate, and seamlessly integrate into hospitals and imaging facilities.
 
